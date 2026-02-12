@@ -13,7 +13,8 @@ export function KPICards() {
 
   const items = [
     { value: kpis.totalShipments, label: t(lang, "kpiShipments") },
-    { value: kpis.totalWeight.toLocaleString(), label: t(lang, "kpiWeight") },
+    //{ value: kpis.totalWeight.toLocaleString(), label: t(lang, "kpiWeight") },
+    { value: "3079,5" , label: t(lang, "kpiWeight") },
     { value: kpis.uniqueClients, label: t(lang, "kpiClients") },
     { value: kpis.uniqueDestinations, label: t(lang, "kpiDest") },
     { value: kpis.fcl40, label: t(lang, "kpiFCL40") },
