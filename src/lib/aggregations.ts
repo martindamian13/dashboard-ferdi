@@ -64,8 +64,8 @@ export function getClientData(data: Shipment[]) {
 export function getProductData(data: Shipment[], lang: string) {
   const labels: Record<string, Record<string, string>> = {
     es: {
-      "BULK CHIA SEEDS BLACK CONVENTIONAL": "Chia Convencional",
-      "ORGANIC BLACK CHIA SEEDS": "Chia Organica",
+      "BULK CHIA SEEDS BLACK CONVENTIONAL": "Chía Convencional",
+      "ORGANIC BLACK CHIA SEEDS": "Chía Orgánica",
       PET: "PET",
     },
     en: {
